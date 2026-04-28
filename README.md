@@ -13,7 +13,7 @@ Three reusable [Claude Code](https://claude.com/claude-code) skills for working 
 Symlinks the skills into `~/.claude/skills/` so edits in this repo go live immediately:
 
 ```bash
-git clone https://github.com/<your-user>/prd-skills.git
+git clone https://github.com/mlaass/prd-skills.git
 cd prd-skills
 ./install.sh
 ```
@@ -23,7 +23,7 @@ If a non-symlink directory already exists at the destination (e.g. you have an o
 ### On any other machine (snapshot copy)
 
 ```bash
-git clone https://github.com/<your-user>/prd-skills.git
+git clone https://github.com/mlaass/prd-skills.git
 cp -r prd-skills/skills/* ~/.claude/skills/
 ```
 
